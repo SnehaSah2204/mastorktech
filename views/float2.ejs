@@ -1,0 +1,88 @@
+<style>
+    .floatingElements{
+        width: 80%;
+        height: 80%;
+        /* background-color: blanchedalmond; */
+    }
+    .a{
+        /* transition: ease 3s; */
+        animation: aanime 36s  infinite ;
+    }
+
+    .b{
+        /* transition: ease 3s; */
+        animation: banime 36s  infinite;
+    }
+    .c{
+        /* transition: ease 3s; */
+        animation: canime 36s  infinite; 
+    }
+    .d{
+        /* transition: ease 3s; */
+        animation: danime 36s  infinite; 
+    }
+    .e{
+        /* transition: ease 3s; */
+        animation: eanime 36s  infinite; 
+    }
+
+    @keyframes aanime {
+        0% {transform: translateY(100px,15px);}
+        15%{transform: translate(300px,0px);}
+        35%{transform: translate(20px,-40px);}
+        40% {transform: translate(300px,0px);}
+        65% {transform: translate(200px,200px);}
+        88% {transform: translate(-100px,0px);}
+        100% {transform: translateY(200px,200px);}
+
+    }
+    @keyframes banime {
+        0% {transform: translateY(0px);}
+        15%{transform: translate(0px,300px);}
+        35%{transform: translate(0px,0px);}
+        40% {transform: translate(0px,300px);}
+        65% {transform: translate(200px,200px);}
+        88% {transform: translate(0px,-100px);}
+        100% {transform: translateY(200px,200px);}
+
+    }
+    @keyframes canime {
+        0% {transform: translateY(15px,100px);}
+        15%{transform: translate(300px,300px);}
+        35%{transform: translate(0px,200px);}
+        40% {transform: translate(200px,232px);}
+        65% {transform: translate(134px,20px);}
+        88% {transform: translate(300px,300px);}
+        100% {transform: translateY(200px,200px);}
+    }
+    @keyframes danime {
+        0% {transform: translateY(46px,215px);}
+        15%{transform: translate(40px,345px);}
+        35%{transform: translate(223px,300px);}
+        40% {transform: translate(150px,200px);}
+        65% {transform: translate(20px,300px);}
+        88% {transform: translate(300px,320px);}
+        100% {transform: translateY(200px,200px);}
+    }
+    @keyframes eanime {
+        0% {transform: translateY(46px,215px);}
+        15%{transform: translate(40px,267px);}
+        35%{transform: translate(146px,-24px);}
+        40% {transform: translate(300px,0px);}
+        65% {transform: translate(152px,200px);}
+        88% {transform: translate(-100px,0px);}
+        100% {transform: translateY(200px,200px);}
+    }
+
+  
+
+
+</style>
+
+<div style="display: flex; flex-direction: row;" class="floatingElements"> 
+    <div class='f a'><img src="./images/figma.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+    <div class='f b'><img src="./images/kotlin.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+    <div class='f c'><img src="./images/ps.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+    <div class='f d'><img src="./images/adobe-xd 1.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+    <div class='f e'><img src="./images/logos_firebase.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+</div>

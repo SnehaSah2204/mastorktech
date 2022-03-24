@@ -1,0 +1,60 @@
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <style>
+    body{
+        background-color: #111111;
+        /* background-color: red; */
+    }
+    div.a,div.b,div.c,div.d ,div.e {
+    width: 50px;
+    height:50px;
+    position:fixed;
+    }
+    .floatImg{
+    height: 80px;
+    width: 80px;
+    }
+    .floatingElements{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    }
+    </style>
+
+    <section class="floatingDiv">
+        <div class="floatingElements">
+            <h1>hey</h1>
+                    <div class='a'><img src="./images/figma.png" class="floatImg" style="height: 70px;width: 55px;"> </div>
+                    <div class='b'><img src="./images/kotlin.png" class="floatImg"> </div>
+                    <div class='c'><img src="./images/ps.png" class="floatImg"> </div>
+                    <div class='d'><img src="./images/adobe-xd 1.png" class="floatImg"> </div>
+                    <div class='e'><img src="./images/logos_firebase.png" class="floatImg"> </div>
+                </div>
+            
+                <script>
+            $(document).ready(function(){
+                animateDiv('.a');
+                animateDiv('.b');
+                animateDiv('.c');
+                animateDiv('.d');
+                animateDiv('.e');
+            });
+            
+            function makeNewPosition(){
+                var h = $(".floatingElements").height() - 50;
+                var w = $(".floatingElements").width() - 50; 
+                var nh = Math.floor(Math.random() * h);
+                var nw = Math.floor(Math.random() * w);
+                return [nh,nw];    
+            }
+            function animateDiv(myclass){
+                var newq = makeNewPosition();
+                $(myclass).animate({ top: newq[0], left: newq[1] }, 7000,   function(){
+                  animateDiv(myclass);        
+                }); 
+            };
+                </script>
+    </section>
+  

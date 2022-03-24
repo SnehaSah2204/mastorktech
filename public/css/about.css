@@ -1,0 +1,505 @@
+
+.section11{
+  margin-top: 6%;
+}
+.section11 h1{
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 54px;
+}
+.aboutDiv{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15%;
+}
+.aboutUs{
+  margin-top:5%;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom:8%;
+}
+.aboutDiv h1{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 0;
+}
+
+hr{
+  width: 10%;
+  margin: auto;
+  border-top: 3px solid white;
+  opacity: 0.6;
+  margin-top: 1%;
+}
+.photos{
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+.photos1{
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.photoDiv{
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0%;
+  width: 16%;
+  margin-right: 3%;
+}
+.photoDiv1 {
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0%;
+  width: 28%;
+  margin-right: 4%;
+  margin-top: 8%;
+}
+.photos1{
+  display: none;
+}
+.photoDiv h4, .photoDiv1 h4 {
+  margin-top: 5%;
+  font-size: 14px;
+  margin-left: 3%;
+  margin-bottom: 0;
+}
+.photoDiv p,.photoDiv1 p{
+  display: inline-block;
+  margin-left: 3%;
+  font-weight: 400;
+  font-size: 12px;
+}
+.teamPhoto{
+  width:100%;
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: 5%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.missionVision{
+  margin-top: 18%;
+  text-align: justify;
+  align-items: center;
+  text-align: center;
+  color:#000000;
+}
+.mission{
+  width: 43%;
+  background-color: #C2BBB9;
+  display: inline-block;
+  margin: 0% 3%;
+  text-align: justify;
+  padding: 4% 2%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(128, 125, 125, 0.35) 0px 5px 15px;
+}
+.mission p {
+margin-top: 5%;
+font-size: 20px;
+}
+.ourValues{
+  margin-top: 15%;
+}
+.puzzleDiv{
+  margin-top: 6%;
+}
+.puzzle{
+  width: 68%;
+  height: 96%;
+  opacity: 1;
+}
+.puzzleContent{
+  width: 80%;
+  margin-top: 24%;
+  padding: 0% 0% 2% 6%;
+  font-size: 20px;
+}
+.puzzleText{
+  align-items: center;
+  text-align: center;
+  font-size: 26px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.puzzleText1 {
+      position: absolute;
+      top: 15%;
+      left: 29%;
+      font-size: 100%;
+  }
+  .puzzleText2 {
+      position: absolute;
+      top: 19%;
+      left: 66%;
+      font-size: 100%;
+  }
+  .puzzleText3 {
+      position: absolute;
+      top: 68%;
+      left: 25%;
+      font-size: 100%;
+  }
+  .puzzleText4 {
+      position: absolute;
+      top: 72%;
+      left: 55%;
+      font-size: 100%;
+  }
+  .likeUs{
+      text-align: left;
+      margin-top: 5%;
+  }
+.likeUsTxt{
+  font-weight: 700;
+  font-weight: bold;
+  margin-top: 10%;
+  text-align: left;
+}
+.button-4{
+  margin-left: 22%;
+}
+
+
+@media (min-width: 993px) and (max-width:1200px) {
+  .section11 h1 {
+      margin-left: 5%;
+      font-weight: 700;
+      font-size: 48px;
+  }
+  .aboutUs {
+      margin-top: 5%;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .mission p {
+      margin-top: 5%;
+      font-size: 17px;
+  }
+  .puzzle {
+      width: 76%;
+      height: 96%;
+      opacity: 1;
+  }
+  .puzzleContent {
+      width: 95%;
+      margin-top: 24%;
+      padding: 0% 0% 2% 6%;
+      font-size: 18px;
+  }
+  .button-4 {
+      margin-left: 8%;
+  }
+  .photos{
+      display: block;
+  }
+  .photos1{
+      display: none;
+  }
+}
+@media (min-width: 768px) and (max-width:993px) {
+  .section11 h1 {
+      margin-left: 5%;
+      font-weight: 700;
+      font-size: 48px;
+  }
+  .aboutUs {
+      margin-top: 5%;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .mission p {
+      margin-top: 5%;
+      font-size: 14px;
+  }
+  .puzzle {
+      width: 42%;
+      height: 96%;
+      opacity: 1;
+  }
+  .puzzleContent {
+      width: 95%;
+      margin-top: 0%;
+      margin-bottom: 6%;
+      padding: 0% 0% 2% 6%;
+      font-size: 18px;
+  }
+  .button-4 {
+      margin-left: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 26px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .button-2 {
+      width: 178px;
+      height: 15px;
+      padding-top: 5px;
+      padding-bottom: 31px;
+  }
+  .photos1{
+      display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .section11 h1 {
+      margin-left: 5%;
+      font-weight: 700;
+      font-size: 48px;
+  }
+  .aboutUs {
+      margin-top: 5%;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .photoDiv h4 {
+      margin-top: 5%;
+      font-size: 16px;
+      margin-left: 3%;
+      margin-bottom: 0;
+  }
+  .photoDiv p {
+      display: inline-block;
+      margin-left: 3%;
+      font-weight: 400;
+      font-size: 12px;
+  }
+  .mission p {
+      margin-top: 5%;
+      font-size: 12px;
+  }
+  .puzzle {
+      width: 42%;
+      height: 96%;
+      opacity: 1;
+  }
+  .puzzleContent {
+      width: 95%;
+      margin-top: 0%;
+      margin-bottom: 6%;
+      padding: 0% 0% 2% 6%;
+      font-size: 14px;
+  }
+  .button-4 {
+      margin-left: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 21px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .button-2 {
+      width: 142px;
+      height: 15px;
+      font-size: 15px;
+      padding-top: 5px;
+      padding-bottom: 26px;
+  }
+  .button-4 {
+      margin-left: 1%;
+  }
+}
+@media (max-width: 576px) {
+  .section11 h1 {
+      margin-left: 5%;
+      font-weight: 700;
+      font-size: 40px;
+  }
+  .aboutUs {
+      margin-top: 5%;
+      font-size: 13px;
+      font-weight: 400;
+      margin-bottom: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center;
+      margin-left: 0;
+  }
+   .photos1{
+      display: none;
+  }
+  .photoDiv h4 {
+      margin-top: 5%;
+      font-size: 16px;
+      margin-left: 3%;
+      margin-bottom: 0;
+  }
+  .photoDiv p {
+      display: inline-block;
+      margin-left: 3%;
+      font-weight: 400;
+      font-size: 12px;
+  }
+  .mission p {
+      margin-top: 5%;
+      font-size: 12px;
+  }
+  .puzzle {
+      width: 42%;
+      height: 96%;
+      opacity: 1;
+  }
+  .puzzleContent {
+      width: 95%;
+      margin-top: 0%;
+      margin-bottom: 6%;
+      padding: 0% 0% 2% 6%;
+      font-size: 14px;
+  }
+  .button-4 {
+      margin-left: 8%;
+  }
+  .aboutDiv h1 {
+      font-weight: 700;
+      font-size: 21px;
+      text-align: center;
+      margin-left: 0;
+  }
+  .button-2 {
+      width: 142px;
+      height: 15px;
+      font-size: 15px;
+      padding-top: 5px;
+      padding-bottom: 26px;
+  }
+  .button-4 {
+      margin-left: 0;
+      align-items: center;
+      text-align: center;
+  }
+  .mission {
+      width: 90%;
+      margin-bottom: 15%;
+      background-color: #C2BBB9;
+      display: inline-block;
+      margin: 6% 3%;
+  }
+  .likeUs {
+      text-align: center;
+      margin-top: 5%;
+  }
+  .connectLogo {
+      height: 35px;
+      width: 35px;
+      font-size: 30px;
+      margin-right: 0%;
+      margin-left: 29%;
+  }
+  .photos{
+      display: none;
+  }
+  .photos1{
+      display: block;
+  }
+  .photoDiv h4, .photoDiv1 h4 {
+      margin-top: 5%;
+      font-size: 12px;
+      margin-left: 3%;
+      margin-bottom: 0;
+  }
+  .photoDiv p, .photoDiv1 p {
+      display: inline-block;
+      margin-left: 3%;
+      font-weight: 400;
+      font-size: 10px;
+  }
+}
+
+  
+
+/* @media (min-width: 993px) and (max-width:1200px) {}
+@media (min-width: 768px) and (max-width:993px) {}
+@media (min-width: 576px) and (max-width: 768px) {}
+@media (max-width: 576px) {}
+*/
+
+/* css of technology  */
+
+
+
+.techSection1{
+  width: 87%;
+  margin: auto;
+  margin-top: 7%;
+}
+.techSection1 h1{
+font-weight: 900;
+font-size: 53px;
+color:white;
+animation: type 3s steps(16);
+/* animation-iteration-count: infinite; */
+overflow: hidden;
+white-space: nowrap;
+border-right: 4px solid #9678B6;
+width: 16ch;
+}
+@keyframes type{
+  0% {
+      width: 0ch;
+  }
+  100%{
+      width: 17ch;
+  }
+}
+.techSection1 p{
+  /* font-weight: 900; */
+  font-size: 22px;
+color:#9678B6;
+  }
+.techSection2{
+  width: 82%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+.techSection2Img{
+  height: 70%;
+  width: 50%;
+  margin: auto;
+  margin-top: 6%;
+}
+.myTechDiv{
+  margin-top: 5%;
+}
+.myTechDiv h3{
+color:white;
+}
+.myTechDiv p{
+color:white;
+}

@@ -1,0 +1,1380 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+  color: #ffffff !important;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a{
+  color: #C2BBB9;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.heading{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #C2BBB9;
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 4%;
+}
+
+.headingphn{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #C2BBB9;
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 4%;
+}
+
+.nav{
+  margin: 1% 2%;
+}
+
+.btn1{
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #111111;
+  padding: 1% 2%;
+}
+
+.btn1:hover{
+  background-color: bisque;
+}
+
+.navitem:hover{
+  color: bisque;
+}
+
+#intro{
+  padding: 4% 8%;
+}
+
+.intro-text{
+  padding-top: 6%;
+}
+
+.intro-text h1{
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.intro-text p{
+  font-size: 18px;
+}
+
+#solution{
+  margin-top: 8%;
+  padding: 4% 8%;
+  text-align: center;
+}
+#carouselExampleIndicators{
+  margin-top:4% ;
+}
+.carousel-indicators{
+  transform: translateY(50px) !important;
+}
+
+@media (max-width: 993px){
+  #header{
+      display: none !important; 
+  }
+  #phnheader{
+      display: block !important;
+  }
+  #intro-phn{
+      display: block !important;
+  }
+  #intro{
+      display: none !important;
+  }
+}
+
+/* my css  */
+.section3{
+  width: 82%;
+  width: 100%;
+  margin: auto;
+  margin-top: 8%;
+  text-align: center;
+  align-items: center;
+}
+.sec3Div{
+  width: 82%;
+  margin: auto;
+  color: #333333;
+  }
+.section3 h1{
+  text-align: center;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section3Para{
+  margin-top: 2%;
+  font-size: 18px;
+  color: #ffffff;
+}
+.myServiceCard{
+  display: inline-block;
+  margin: 4% 2%;
+  background-color:#C2BBB9;
+  transition: transform .2s;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(37, 35, 35, 0.35) 0px 5px 15px;
+
+}
+.myServiceCard:hover{
+transform: scale(1.2); 
+}
+.serviceCardImg{
+  height: 230px;
+  width: 100%;
+}
+.myCardTitle{
+  font-size: 20px;
+  color: #000000;
+}
+.myCardText{
+  margin-top: 8%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+}
+
+
+.button-2 {
+  width: 220px;
+  height: 24px;
+  padding-top: 12px;
+  padding-bottom: 37px;
+  text-align: center;
+  color: #000;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 3%;
+  box-shadow: rgba(211, 211, 211, 0.24) 0px 3px 8px;
+}
+.button-2 {
+  color: #000000;
+  border: 3px solid white;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #fdfdfd 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-size: 581px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: white;
+}
+.or{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.sec3link{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section4{
+  width: 82%;
+  margin: auto;
+  margin-top: 6%;
+}
+.section4 h1{
+ font-weight: 700;
+ font-weight: bold;
+}
+.sec4LeftDiv p{
+  margin-top: 5%;
+  margin-bottom: 8%;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 26px;
+}
+.sec4LeftDiv{
+  padding: 8% 4% 3% 2%;
+} 
+.sec4LeftDiv h1{
+  font-size: 290%;
+}
+
+.sec4RightDiv{
+  /* background-color: aquamarine; */
+  /* position: relative; */
+  height: 430px;
+  align-items: center;
+  text-align: center;
+}
+.button-3 {
+  width: 220px;
+  height: 24px;
+  padding-top: 12px;
+  padding-bottom: 37px;
+  text-align: center;
+  color: #000;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 3%;
+  box-shadow: rgba(211, 211, 211, 0.24) 0px 3px 8px;
+}
+.button-3 {
+  color: #000000;
+  border: 3px solid #C2BBB9;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #C2BBB9 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(30deg, #C2BBB9 50%, transparent 50%);
+  background-size: 581px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-3:hover {
+  background-position: 100%;
+  color: white;
+  border: 3px solid white;
+}
+.sec4RightDiv{
+    padding-top: 5%;
+    height: 550px;
+}
+.floatingElements{
+    width: 100%;
+    height: 100%;
+    /* background-color: #939292; ellipse*/
+}
+.Myiframe{
+  width: 100%;
+  height: 550px; 
+}
+
+.section5{
+  width: 82%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+}
+.section5 h1{
+ font-weight: 700;
+ font-weight: bold;
+ font-size: 40px;
+
+ text-transform: uppercase;
+}
+.section5 p{
+  margin-top: 5%;
+  margin-bottom: 8%;
+  font-weight: 500;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: revert;
+}
+.section6{
+  width: 72%;
+  margin: auto;
+  margin-top: 14%;
+  text-align: center;
+  align-items: center;
+  box-shadow: rgba(134, 129, 129, 0.35) 0px 5px 15px;
+}
+.section2Video{
+  width: 100%;
+}
+
+.section7{
+  width: 82%;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  text-align: center;
+  align-items: center;
+}
+.section7 h1{
+  font-weight: 700;
+  /* font-weight: bold; */
+  margin-bottom: 8%;
+  color: white;
+}
+.section7 .card{
+  height: 100%;
+  width: 100%;
+  color: #4e4e50;
+  font-weight: 500;
+  padding: 24% 1% 1% 1%;
+}
+.sec5ColDiv{
+  position: relative;
+  padding: 3%;
+  margin-top: 7%;
+}
+.sec7Img{
+  position: absolute;
+  width: 152px;
+  height: 152px;
+  border-radius: 100%;
+  top: -28%;
+  left: 28%;
+}
+.ellipse{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: -37%;
+  left: 20%;
+}
+.sec7CardTitle{
+  text-align: left;
+}
+.userTitle{
+  font-size: 14px;
+  margin-top: -8px;
+  text-align: justify;
+}
+.sec7CardTxt{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sec7p{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 5%;
+}
+.button04{
+  width: 230px;
+}
+.button04 {
+  color: #000000;
+  border: 3px solid white;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #fdfdfd 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-size: 581px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button04:hover {
+  background-position: 100%;
+  color: white;
+}
+.section8{
+  width: 82%;
+  padding: 3% 0%;
+  margin: auto;
+  }
+.section8 h1{
+  font-size: 50px;
+  font-weight: 500;  
+}
+.chatIcon{
+  height: 40px;
+  width: 40px;
+}
+.section8 h5{
+  font-size: 22px;
+  font-weight: 400;  
+  margin-top: 8%;
+}
+.section8 p{
+  font-size: 18px;
+  font-weight: 400;  
+  margin-top: 8%;
+  text-align: justify;
+}
+.sec8RightDiv{
+  padding: 0% 0% 4% 6%;
+}
+.form {
+  margin-top: 5%;
+  width: 90%;
+  position: relative;
+  height: 67px;
+  overflow: hidden;
+}
+
+.form input {
+width: 100%;
+height: 100%;
+background-color: #111111;
+color: white;
+padding-top: 20px;
+border: none;
+outline: none;
+font-size: 18px;
+}
+
+.form label {
+position: absolute;
+color: #C2BBB9;
+bottom: 0;
+left: 0;
+font-weight: 500;
+width: 100%;
+height: 100%;
+pointer-events: none;
+border-bottom: 1px solid #C2BBB9;
+}
+
+.form label::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 100%;
+width: 100%;
+border-bottom: 3px solid #5fa8d3;
+transform: translateX(-100%);
+transition: transform 0.3s ease;
+}
+
+.content-name {
+position: absolute;
+bottom: 5px;
+left: 0;
+transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+transform: translateY(-150%);
+font-size: 14px;
+color: #0B1B35;
+color: white;
+}
+
+.form input:focus .label-name::after,
+.form input:valid + .label-name:after {
+transform: translateX(0%);
+}
+.givingmargintop{
+margin-top: 5%;
+}
+.button05{
+  margin-top: 8%;
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 13%;
+  width: 150px;
+  height: 22px;
+  font-size: 18px;
+}
+.button05 {
+  color: #000000;
+  border: 3px solid white;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #fdfdfd 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+  background-size: 581px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button05:hover {
+  background-position: 100%;
+  color: white;
+}
+.contactp{
+  display: inline-block;
+  margin-left: 5%;
+}
+.whatsappimg{
+  height: 50px;
+  width: 50px;
+
+}
+
+
+.footerHeading{
+font-weight: 600;
+color: black;
+margin-top: 8%;
+margin-bottom: 5%;
+
+}
+.footerItem{
+color: rgb(186, 178, 161);
+color: #333333;
+font-weight: 500;
+}
+
+.section9{
+  width: 100%;
+  padding: 4%;
+  margin: auto;
+  color: #000000;
+  background-color: #C2BBB9;
+}
+.section9 h1{
+  font-weight: 700;
+  font-weight: bold;
+  margin-top: 15%;
+  font-family: 'Philosopher', sans-serif; 
+}
+.footerLogo{
+  width: 150px;
+  height: 150px;
+  margin: 2% 0% 0% 4%;
+}
+.footerLinks {
+  margin-top: 2%;
+  line-height: 35px;
+}
+.footerLinks a{
+  color: black;
+  font-size: 16px;
+  margin: 6% 5%;
+  margin-top: 8%;
+}
+.connectLogo{
+  height: 35px;
+  width: 35px;
+  font-size: 30px;
+  /* margin-right: 0%; */
+  /* margin-left: 22%; */
+}
+.section10{
+    margin-top: 1%;
+    width: 100%;
+    padding: 2% 8%;
+}
+.section10 h1{
+  margin-left: 0%;
+  font-weight: 700;
+  text-align: center;
+}
+.serviceContent{
+  margin-top: 5%;
+  margin-bottom: 23%;
+}
+.serviceBoxLeft{
+  /* background-color: red; */
+  position: relative;
+  height: 400px;
+  width: 70%;
+}
+.serviceLeft{
+  background-color: #c4c4c4;
+  width: 60%;
+  text-align: center;
+  padding: 3% 8% 3% 2%;
+  color: #000000;
+  /* position: relative; */
+  box-shadow: rgba(167, 155, 155, 0.35) 0px 5px 15px;
+
+}
+.serviceImgLeft {
+  height: 85%;
+  width: 45%;
+  position: absolute;
+  top: 32%;
+  right: 0%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.serviceMarginleft{
+  margin-top: 14%;
+}
+.serviceLeft h2, .serviceRight h2{
+  font-weight: 800;
+}
+.serviceLeft p, .serviceRight p{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  /* position: relative; */
+}
+.serviceBoxRight{
+  /* background-color: red; */
+  position: relative;
+  height: 400px;
+  width: 100%;
+  margin-top: 14%;
+}
+.serviceRight{
+  background-color: #c4c4c4;
+  width: 45%;
+  text-align: center;
+  padding: 3% 2% 3% 8%;
+  color: #000000;
+  position: absolute;
+  right: 0;
+  /* position: relative; */
+  box-shadow: rgba(167, 155, 155, 0.35) 0px 5px 15px;
+
+}
+.serviceImgRight{
+  height: max-content;
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  left: -55%;
+}
+
+.solSpan{
+  animation: type 3s steps(10);
+  /* animation-iteration-count: infinite; */
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #0B1B35;
+  width: 10ch;
+  }
+  @keyframes type{
+      0% {
+          width: 0ch;
+      }
+      100%{
+          width: 10ch;
+      }
+  }
+  .footerIcon{
+    margin-top: 8%;
+  }
+
+
+  /* all good  */
+
+
+
+  @media (min-width: 993px) and (max-width:1200px) {
+    .button-3 {
+        width: 177px;
+        height: 10px;
+        padding-top: 4px;
+        padding-bottom: 34px;}
+    .sec4LeftDiv p {
+        margin-top: 5%;
+        margin-bottom: 8%;
+        font-weight: 400;
+        font-weight: normal;
+        font-size: 22px;
+    }
+    .section5 p {
+        margin-top: 5%;
+        margin-bottom: 8%;
+        font-weight: 500;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .sec7p {
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 13%;
+    }    
+    .section7 .card{
+        height: 100%;
+        width: 100%;
+        color: #4e4e50;
+        font-weight: 500;
+        padding: 24% 1% 1% 1%;
+        margin-top: 18%;
+    }
+    .sec7Img{
+        position: absolute;
+        width: 122px;
+        height: 122px;
+        border-radius: 100%;
+        top: -17%;
+        left: 25%;
+    }
+    .ellipse {
+        position: absolute;
+        width: 149px;
+        height: 76px;
+        top: -21%;
+        left: 19%;
+    }
+    .userTitle{
+        font-size: 14px;
+        margin-top: -8px;
+        text-align: justify;
+    }
+    .sec7CardTxt{
+        text-align: left;
+        font-size: 15px;
+        margin-top: 8%;
+        font-weight: 400;
+    }
+    .sec8RightDiv {
+        padding: 16% 0% 4% 6%;
+    }
+    .serviceLeft {
+        background-color: #c4c4c4;
+        width: 75%;
+        text-align: center;
+        padding: 3% 8% 3% 2%;
+        color: #000000;
+        /* position: relative; */
+        box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+    }
+    .serviceImgLeft {
+        height: max-content;
+        width: 58%;
+        position: absolute;
+        top: 32%;
+        right: -28%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    }
+    .serviceLeft p, .serviceRight p {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        /* position: relative; */
+    }
+    .serviceRight {
+        background-color: #c4c4c4;
+        width: 55%;
+        text-align: center;
+        padding: 3% 2% 3% 8%;
+        color: #000000;
+        position: absolute;
+        right: 0;
+        /* position: relative; */
+        box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+    }
+    .serviceImgRight {
+        height: 93%;
+        width: 76%;
+        position: absolute;
+        top: 35%;
+        left: -64%;
+    }
+}
+@media (min-width: 768px) and (max-width:993px) {
+.technologies{
+    text-decoration: none;
+    color: #0B1B35;
+    position: absolute;
+    bottom: -50%;
+    left: -10%;
+    /* font-family: Poppins; */
+    font-weight: 5000;
+    font-size: 43px;
+} 
+.form-control {
+    height: 39px;
+}
+.inputDiv {
+    height: 39px;
+}
+.sec8RightDiv {
+    padding: 16% 0% 4% 6%;
+}
+.sec4LeftDiv h1 {
+    font-size: 253%;
+}
+.sec4LeftDiv p {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 19px;
+}
+.button-3 {
+    width: 177px;
+    height: 10px;
+    padding-top: 2px;
+    padding-bottom: 31px;
+}
+.section5 p {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-weight: 500;
+    font-weight: normal;
+    font-size: 15px;
+}
+.sec7 p {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15%;
+}
+.section7 .card{
+    height: 100%;
+    width: 100%;
+    color: #4e4e50;
+    font-weight: 500;
+    padding: 24% 1% 1% 1%;
+    margin-top: 18%;
+}
+.sec7Img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    top: -17%;
+    left: 25%;
+}
+.ellipse {
+    position: absolute;
+    width: 124px;
+    height: 66px;
+    top: -21%;
+    left: 18%;
+}
+.userTitle{
+    font-size: 14px;
+    margin-top: -8px;
+    text-align: justify;
+}
+.sec7CardTxt{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 8%;
+    font-weight: 400;
+}
+.sec8RightDiv {
+    padding: 2% 0% 4% 6%;
+}
+.footerLinks a {
+    color: black;
+    font-size: 12px;
+}
+.footerItem {
+    color: rgb(186, 178, 161);
+    color: #333333;
+    font-weight: 500;
+    font-size: 12px;
+}
+.serviceLeft {
+    background-color: #c4c4c4;
+    width: 83%;
+    text-align: center;
+    padding: 3% 8% 3% 2%;
+    color: #000000;
+    /* position: relative; */
+    box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+}
+.serviceImgLeft {
+    height: 59%;
+    width: 62%;
+    position: absolute;
+    top: 27%;
+    right: -39%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.serviceLeft p, .serviceRight p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    /* position: relative; */
+}
+.serviceRight {
+    background-color: #c4c4c4;
+    width: 60%;
+    text-align: center;
+    padding: 3% 2% 3% 8%;
+    color: #000000;
+    position: absolute;
+    right: 0;
+    /* position: relative; */
+    box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+}
+.serviceImgRight {
+    height: 80%;
+    width: 76%;
+    position: absolute;
+    top: 35%;
+    left: -64%;
+}
+.connectLogo {
+    height: 35px;
+    width: 35px;
+    font-size: 30px;
+    margin-right: 0%;
+    /* margin-left: 10%; */
+}
+.headingphn {
+  font-size: 31px;
+  margin-top: 2%;
+  text-transform: uppercase;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+        .button-3 {
+            width: 177px;
+            height: 10px;
+            padding-top: 2px;
+            padding-bottom: 31px;
+        }
+        .sec4LeftDiv h1 {
+            font-size: 253%;
+        }
+        .sec4LeftDiv p {
+            margin-top: 5%;
+            margin-bottom: 8%;
+            font-weight: 400;
+            font-weight: normal;
+            font-size: 19px;
+        }
+        .section5 p {
+            margin-top: 5%;
+            margin-bottom: 8%;
+            font-weight: 500;
+            font-weight: normal;
+            font-size: 15px;
+        }
+        .section7 .card{
+            height: 100%;
+            width: 100%;
+            color: #4e4e50;
+            font-weight: 500;
+            padding: 24% 1% 1% 1%;
+            margin-top: 18%;
+        }
+        .sec7Img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            top: -17%;
+            left: 32%;
+        }
+        .ellipse {
+            position: absolute;
+    width: 118px;
+    height: 57px;
+    top: -21%;
+    left: 29%;
+        }
+        .userTitle{
+            font-size: 14px;
+            margin-top: -8px;
+            text-align: justify;
+        }
+        .sec7CardTxt{
+            text-align: left;
+            font-size: 15px;
+            margin-top: 8%;
+            font-weight: 400;
+        }
+        .sec7p {
+            text-align: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 28%;
+        }
+        .lastCard{
+            margin-top: 25%;
+            height: 100%;
+            width: 100%;
+            color: #4e4e50;
+            font-weight: 500;
+            padding: 2% 1% 1% 1%;
+        }
+        .lastCard .sec7Img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            top: -13%;
+            left: 43%;
+        }
+         .lastCard .ellipse{
+            position: absolute;
+            width: 126px;
+            height: 66px;
+            top: -16%;
+            left: 41%;}
+        .section7 .lastCard{
+            padding-top: 5%;
+        }
+        .sec8RightDiv {
+            padding: 2% 0% 4% 6%;
+        }
+        .section8 h5 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 8%;
+        }
+        .section8 p {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 8%;
+            text-align: justify;
+        }
+        .footerLinks a {
+            color: black;
+            font-size: 12px;
+            margin: 8% 5%;
+            margin-top: 15%;
+        }
+        .footerItem {
+            color: rgb(186, 178, 161);
+            color: #333333;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .serviceLeft {
+            background-color: #c4c4c4;
+            width: 83%;
+            text-align: center;
+            padding: 3% 8% 3% 2%;
+            color: #000000;
+            /* position: relative; */
+            box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+        }
+        .serviceImgLeft {
+            height: 59%;
+            width: 62%;
+            position: absolute;
+            top: 27%;
+            right: -39%;
+            box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+            box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        }
+        .serviceLeft p, .serviceRight p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            text-align: justify;
+            /* position: relative; */
+        }
+        .serviceRight {
+            background-color: #c4c4c4;
+            width: 60%;
+            text-align: center;
+            padding: 3% 2% 3% 8%;
+            color: #000000;
+            position: absolute;
+            right: 0;
+            /* position: relative; */
+            box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+        }
+        .serviceImgRight {
+            height: 80%;
+            width: 76%;
+            position: absolute;
+            top: 35%;
+            left: -64%;
+        }
+        .connectLogo {
+            height: 35px;
+            width: 35px;
+            font-size: 30px;
+            margin-right: 0%;
+            /* margin-left: 10%; */
+        }
+        .headingphn {
+          font-size: 24px;
+          margin-top: 2%;
+          text-transform: uppercase;
+        }
+        .section9 h1 {
+          font-weight: 700;
+          font-weight: bold;
+          margin-top: 3%;
+          text-align: center;
+          font-family: 'Philosopher', sans-serif;
+      }
+}
+
+@media (max-width: 576px) {
+        .section3Para {
+            margin-top: 2%;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .serviceCardImg {
+            height: 187px;
+            width: 100%;
+        }
+        .myServiceCard {
+            height: 391px;
+        }
+        .button-2 {
+            margin-top: 8%;
+        }
+        .button-2 {
+            width: 197px;
+            height: 11px;
+            padding-top: 3px;
+            padding-bottom: 32px;
+        }
+        .sec4LeftDiv h1 {
+            font-size: 211%;
+            margin-top: 16%;
+        }
+        .sec4LeftDiv p {
+            margin-top: 5%;
+            margin-bottom: 8%;
+            font-weight: 400;
+            font-weight: normal;
+            font-size: 16px;
+        }
+        .button-3 {
+            width: 156px;
+            height: 16px;
+            padding-top: 2px;
+            padding-bottom: 32px;
+        }
+        .sec4RightDiv {
+            padding-top: 5%;
+            height: 474px;
+        }
+        .section5 {
+            width: 82%;
+            margin: auto;
+            margin-top: 34%;
+            text-align: center;
+            align-items: center;
+        }
+        .section5 h1 {
+            font-weight: 700;
+            font-weight: bold;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .section5 p {
+            margin-top: 5%;
+            margin-bottom: 8%;
+            font-weight: 500;
+            font-weight: normal;
+            font-size: 9px;
+        }
+        .section7 .card{
+            height: 93%;
+            width: 100%;
+            color: #4e4e50;
+            font-weight: 500;
+            padding: 9% 1% 0% 1%;
+            margin-top: 18%;
+        }
+        .sec7Img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            top: -17%;
+            left: 38%;
+        }
+        .section7 h1 {
+            margin-top: 34%;
+            font-weight: 700;
+            /* font-weight: bold; */
+            margin-bottom: -4%;
+            color: white;
+        }
+        .sec7 p {
+            text-align: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 45%;
+        }
+        .section8 h5 {
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: 8%;
+        }
+        .sec7p {
+            text-align: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 27%;
+        }
+        .ellipse {
+            position: absolute;
+            width: 121px;
+            height: 57px;
+            top: -21%;
+            left: 35%;
+        }
+        .userTitle{
+            font-size: 14px;
+            margin-top: -8px;
+            text-align: justify;
+        }
+        .sec7CardTxt{
+            text-align: left;
+            font-size: 15px;
+            margin-top: 8%;
+            font-weight: 400;
+        }
+        .lastCard{
+            margin-top: 45%;
+        }
+        .sec5ColDiv{
+            margin-top: 10%;
+        }
+        .connectLogo {
+            height: 35px;
+            width: 35px;
+            font-size: 30px;
+            margin-right: 0%;
+            margin-left: 22%;
+            margin-bottom: 16%;
+        }
+        .serviceLeft {
+            background-color: #c4c4c4;
+            width: 83%;
+            text-align: center;
+            padding: 3% 8% 3% 2%;
+            color: #000000;
+            /* position: relative; */
+            box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+        }
+        .serviceImgLeft {
+            height: 59%;
+            width: 62%;
+            position: absolute;
+            top: 27%;
+            right: -39%;
+            box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+            box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+            display: none;
+
+        }
+        .serviceLeft p, .serviceRight p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            text-align: justify;
+            /* position: relative; */
+        }
+        .serviceRight {
+            background-color: #c4c4c4;
+            width: 60%;
+            text-align: center;
+            padding: 3% 2% 3% 8%;
+            color: #000000;
+            position: absolute;
+            right: 0;
+            /* position: relative; */
+            box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+        }
+        .serviceImgRight {
+            height: 80%;
+            width: 76%;
+            position: absolute;
+            top: 35%;
+            left: -64%;
+            display: none;
+        }
+        .shiftApp{
+            margin-top: 70%;
+        }
+        .connectLogo {
+            height: 35px;
+            width: 35px;
+            font-size: 30px;
+            margin-right: 0%;
+            /* margin-left: 10%; */
+        }
+        .headingphn {
+          font-size: 20px;
+          margin-top: 2%;
+          text-transform: uppercase;
+        }
+        .section9 h1 {
+          font-weight: 700;
+          font-weight: bold;
+          margin-top: 3%;
+          text-align: center;
+          font-family: 'Philosopher', sans-serif;
+      }
+      .serviceRight {
+        background-color: #c4c4c4;
+        width: 98%;
+        margin-top: -24%;
+        margin-bottom: -4%;
+        text-align: center;
+        padding: 3% 7% 3% 8%;
+        color: #000000;
+        position: absolute;
+        right: 0;
+        /* position: relative; */
+        box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+    }
+    .serviceLeft {
+      background-color: #c4c4c4;
+      width: 144%;
+      text-align: center;
+      padding: 3% 8% 3% 10%;
+      margin-top: 23%;
+      color: #000000;
+      /* position: relative; */
+      box-shadow: rgb(167 155 155 / 35%) 0px 5px 15px;
+  }
+  .shiftApp {
+    margin-top: -56%;
+    padding: 9%;
+}
+.videoEditing{
+  margin-top: -60%;
+}
+.footerIcon{
+  margin-top: 0%;
+  margin-left: 0;
+  margin:0% !important;
+}
+.connectLogo {
+  height: 3px;
+  margin-top: 4%;
+  width: 35px;
+  font-size: 30px;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+}  
+.cursor{
+    position: fixed;
+    width: 45px;
+    height:45px;
+    border: 1px solid #C2BBB9;
+    box-shadow: 2px 1px 13px 3px #C2BBB9;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    transition: .1s;
+}
